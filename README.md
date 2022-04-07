@@ -1,4 +1,3 @@
-# Netflix
 <div align="center">
    <h1> Netlfix Clone </h1>
 </div>
