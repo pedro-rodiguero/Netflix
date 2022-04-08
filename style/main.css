@@ -9,9 +9,11 @@
     box-sizing: border-box;
 }
 
+/* home page */
 body {
     background: var(--black);
     font-family: 'Times New Roman', Times, serif;
+    color: white;
 }
 
 header .container {
@@ -35,4 +37,66 @@ header nav a {
 
 header nav a:hover {
     color: #fff;
+}
+
+/* movies */
+.home-movie {
+    font-size: 16px;
+    background: linear-gradient(rgba(0,0,0,.50),rgba(0,0,0,.50)), url('../img/backdrop.jpg');
+    
+    height: 400px;
+    background-size: cover;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+.home-movie .description {
+    margin-top: 6px;
+    margin-bottom: 40px;
+}
+
+.home-movie .title {
+    margin-top: 15%;
+    font-size: 35px;
+    font-family: 'Trebuchet MS';
+}
+
+.button {
+    background-color: rgba(0,0,0,.50);
+    border: none;
+    color: white;
+
+    padding: 10px 20px;
+    margin-right: 10px;
+    font-size: 10px;
+
+    cursor: pointer;
+    transition: 0.75s ease all;
+}
+
+.button:hover {
+    background-color: white;
+    color: black;
+}
+
+.button i {
+    margin-right: 3px;
+}
+
+.container {
+    margin-left: 20px;
+    margin-right: 10px;
+}
+
+.home-movie .container {
+    width: 60%;
+}
+
+.movie-box {
+    height: 100%;
+    width: 100%;
+    display: block;
 }
